@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px){
+    .defult-margin{
+        margin: 0;
+    }
+
+    .body_upper{
+        height: 430px;
+    }
+    .body_upper h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .buttons a{
+        width: 140px;
+        margin-top: 15px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+/* body upper end */
+
+    .body_middle{
+        height: 170px;
+    }
+    .first_p{
+        padding-top: 50px;
+    }
+/* boddy middle end */
+
+.container-section{
+    margin-left: 40px;
+    
+}
+/* hero part end */
+    .body_third{
+        margin-top: 80px;
+    }
+    .feature{
+        height: 60px;
+        font-size: 14px;
+    }
+    .feature p{
+        text-align: center;
+    }
+    .li li{
+        list-style: none;
+    }
+    .li ul{
+        grid-template-columns: 1fr;
+        margin-left: 50px;
+    }
+/* body third end */
+.support-part p{
+    margin: 0 5px 20px 5px;
+}
+
+/* support part end */
+.footer-last{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+/* End  */
+}
